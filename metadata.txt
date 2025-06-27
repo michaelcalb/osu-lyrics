@@ -1,0 +1,7 @@
+Usecase: ingame, obs-overlay
+Name: lyricosu
+Version: 1.0
+Author: zmichas
+CompatibleWith: gosu, tosu
+Resolution: 600x200
+authorLinks: https://github.com/michaelcalb

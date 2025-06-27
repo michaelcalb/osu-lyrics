@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.lyrics-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    width: 900px;
+    user-select: none;
+    gap: 15px;
+    padding: 0 50px;
+    background-color: black;
+    color: white;
+}
+
+.prev-lyrics, .next-lyrics {
+    font-size: 2.2em;
+    filter: /* blur(1px) still unsure about that */ opacity(50%); 
+}
+
+.curr-lyrics {
+    font-size: 2.7em;
+    font-weight: 700;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
